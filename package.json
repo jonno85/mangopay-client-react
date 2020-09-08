@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/lancygoyal/mangopay-client-react#readme",
   "dependencies": {
-    "base-64": "^0.1.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
