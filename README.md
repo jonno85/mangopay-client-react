@@ -29,7 +29,7 @@ Make sure you have the right configuration in a place:
 
     *** Get MANGOPAY Client Singelton Object
     // @clientId {string} API Client Id
-    // @clientPassword {string} API Client Password
+    // @clientPassword {string} API Client Password => the oauth2 bearer token as described here: https://docs.mangopay.com/guide/authentification
     // @userId {string} User ID
     // @baseUrl {string} API Base URL. The fault base value points to sandbox. Production is 'https://api.mangopay.com'
     const MangoPayClient = Mangopay.getInstance(clientId, clientPassword, userId, baseUrl);
